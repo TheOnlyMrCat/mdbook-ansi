@@ -1,0 +1,3 @@
+[mdbook-ansi:build]
+::default-phase build
+cargo build

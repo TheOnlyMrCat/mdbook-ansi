@@ -1,0 +1,10 @@
+[package]
+name = "mdbook-ansi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "3.2.8"
+mdbook = { version = "0.4.19", default-features = false }
+pulldown-cmark = "0.9.1"
+serde_json = "1.0.82"
